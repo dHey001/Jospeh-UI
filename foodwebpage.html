@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Landing Page - Product Testing</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        color: black;
+      }
+
+      body {
+        background-color: antiquewhite;
+      }
+
+      .Webpage_header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        font-family: "Inter", sans-serif;
+        padding: 10px;
+      }
+
+      .header_leftside {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .Webpage_title {
+        font-family: "Inter", sans-serif;
+        background: url("Images/burger.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px;
+        font-size: large;
+      }
+
+      .Webpage_title h1 {
+        color: white;
+        text-align: left;
+        font-size: 80px;
+        font-weight: bold;
+        /* background-color: rgba(0, 255, 0, 0.5); */
+        font-style: italic;
+      }
+
+      .Webpage_title strong {
+        color: green;
+        text-align: left;
+        font-weight: bold;
+        font-size: 80px;
+      }
+
+      .webpage_navigation {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: "Inter", sans-serif;
+        align-content: left;
+      }
+
+      a:active {
+        color: orangered;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        margin-left: 0px;
+        margin-top: 30px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .webpage_anchor_text {
+        font-family: "Inter", sans-serif;
+        font-size: 40px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .webpage_products {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Webpage_Header -->
+    <header class="Webpage_header">
+      <section class="header_leftside">
+        <img
+          src="/Images/Abstract_logo.png"
+          height="80px"
+          alt="Abstract logo"
+        />
+        <p>
+          Your location<br />
+          <strong>Iziren Joseph</strong>
+        </p>
+      </section>
+      <section class="header_rightside">
+        <img
+          src="/Images/profile_picture.png"
+          height="80px"
+          alt="profile picture"
+        />
+      </section>
+    </header>
+
+    <!-- Webpage_Title -->
+    <section class="Webpage_title">
+      <h1>
+        BUY 1<br />
+        GET<br />
+        <strong>Hamburgers</strong>
+      </h1>
+    </section>
+
+    <!-- Webpage_Navigation -->
+    <main class="webpage_navigation">
+      <section>
+        <a href="#"><button>Food</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Grocery</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Drink</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Snacks</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Desert</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Fruit</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Vegetable</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Meat</button></a>
+      </section>
+      <section>
+        <a href="#"><button>Fish</button></a>
+      </section>
+    </main>
+
+    <h1 class="webpage_anchor_text">Special for you</h1>
+
+    <!-- Webpage_Products -->
+    <section class="webpage_products">
+      <section class="product">
+        <img src="/Images/Chicken.jpeg" alt="Chicken" height="200px" />
+        <h2>Family packaged chicken original</h2>
+        <p>Price: $5.00</p>
+        <button>Add to Cart</button>
+      </section>
+
+      <section class="product">
+        <img src="/Images/Spaghetti.jpeg" alt="Spaghetti" height="200px" />
+        <h2>Spaghetti with onion ring</h2>
+        <p>Price: $8.00</p>
+        <button>Add to Cart</button>
+      </section>
+
+      <section class="product">
+        <img src="/Images/Pizza.jpeg" alt="Pizza" height="200px" />
+        <h2>Pizza with sauce mazzarella</h2>
+        <p>Price: $4.00</p>
+        <button>Add to Cart</button>
+      </section>
+
+      <section class="product">
+        <img src="/Images/Toast.jpeg" alt="Toast" height="200px" />
+        <h2>Single original toast</h2>
+        <p>Price: $4.00</p>
+        <button>Add to Cart</button>
+      </section>
+
+      <section class="product">
+        <img src="/Images/Humburger.jpeg" alt="Humburger" height="200px" />
+        <h2>Home made classic humburger</h2>
+        <p>Price: $4.00</p>
+        <button>Add to Cart</button>
+      </section>
+    </section>
+  </body>
+</html>
